@@ -1,0 +1,611 @@
+* {
+    color: #F1E4C1;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    overflow-y: scroll;
+}
+
+.div_title {
+    font-family: 'Poiret One', cursive;
+}
+
+#maxi_merrillees {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #274561;
+    background-image:
+    url(svgs/mobile_spotlight_left.svg), url(svgs/mobile_spotlight_right.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 40% auto, 60% auto;
+    background-position: left bottom, right bottom;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 25% 10% 10% 25% 30%;
+    grid-template-areas:
+    ". . ."
+    ". maxi ."
+    ". merrillees ."
+    ". bio ."
+    "city_silhouette city_silhouette city_silhouette";
+}
+
+#navigation {
+    display: none;
+}
+
+#maxi {
+    margin: 0;
+    font-size: 4em;
+    text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.25);
+    grid-area: maxi;
+}
+
+#merrillees {
+    margin: 0;
+    font-size: 4em;
+    text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.25);
+    grid-area: merrillees;
+}
+
+#bio {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 20px;
+    grid-area: bio;
+}
+
+#city_silhouette {
+    margin: 0;
+    background: url(svgs/city_silhouette.svg);
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: 30% 100%;
+    grid-area: city_silhouette;
+}
+
+#noteable_work {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #274561;
+    background-image: url(svgs/work_spotlight.svg);
+    background-repeat: 
+    no-repeat;
+    background-size: auto 100%;
+    background-position: center top;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 18% 18% 18% 18% 9% 9%;
+    grid-template-areas:
+    ". div2_title ."
+    ". work1_mobile ."
+    ". work2_mobile ."
+    ". work3_mobile ."
+    ". work4_mobile ."
+    "skills_icons1 skills_icons1 skills_icons1"
+    "skills_icons2 skills_icons2 skills_icons2 ";
+}
+
+#div2_title {
+    margin: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1.4em;
+    text-decoration: underline;
+    grid-area: div2_title;
+}
+
+.work_description {
+    font-size: 1.1em;
+    line-height: 19px;
+}
+
+#work1_mobile {
+    margin: 0;
+    grid-area: work1_mobile;
+}
+
+#work1_mobile:hover {
+    text-shadow: 0px 0px 8px #F1E4C1;
+}
+
+#work1_mobile:hover ~ div .work_one {
+    filter: grayscale(0%);
+    width: 11%;
+}
+
+
+#work1_desktop {
+    display: none;
+}
+
+#work2_mobile {
+    margin: 0;
+    grid-area: work2_mobile;
+}
+
+#work2_mobile:hover {
+    text-shadow: 0px 0px 8px #F1E4C1;
+}
+
+#work2_mobile:hover ~ div .work_two {
+    filter: grayscale(0%);
+    width: 11%;
+}
+
+#work2_desktop {
+    display: none;
+}
+
+#work3_mobile {
+    margin: 0;
+    grid-area: work3_mobile;
+}
+
+#work3_mobile:hover {
+    text-shadow: 0px 0px 8px #F1E4C1;
+}
+
+#work3_mobile:hover ~ div #work_three_one {
+    filter: grayscale(0%);
+    width: 11%;
+}
+
+#work3_mobile:hover ~ div #work_three_two {
+    filter: grayscale(0%);
+    width: 22%;
+}
+
+#work3_desktop {
+    display: none;
+}
+
+#work4_mobile {
+    margin: 0;
+    grid-area: work4_mobile;
+}
+
+#work4_mobile:hover {
+    text-shadow: 0px 0px 8px #F1E4C1;
+}
+
+#work4_mobile:hover ~ div .work_one {
+    filter: grayscale(0%);
+    width: 11%;
+}
+
+#work4_mobile:hover ~ div #work_four_one {
+    filter: grayscale(0%);
+    width: 22%;
+}
+
+#work4_mobile:hover ~ div .work_two {
+    filter: grayscale(0%);
+    width: 11%;
+}
+
+#work4_mobile:hover ~ div .work_four_two {
+    filter: grayscale(0%);
+    width: 11%;
+}
+
+#work4_desktop {
+    display: none;
+}
+
+#skills_icons1 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    grid-area: skills_icons1;
+}
+
+#skills_icons1 img {
+    width: 10%;
+    height: auto;
+    filter: grayscale(80%);
+    align-content: center;
+    
+}
+
+#skills_icons1 img:nth-child(4) {
+    width: 20%;
+    height: auto;
+}
+
+#skills_icons2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    grid-area: skills_icons2;
+}
+
+#skills_icons2 img {
+    width: 10%;
+    height: auto;
+    filter: grayscale(80%);
+    align-content: center;
+}
+
+#skills_icons2 img:nth-child(4) {
+    width: 20%;
+    height: auto;
+}
+
+#connect_with_me {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #2D2B2C;
+    background-image: 
+    url(svgs/corners_left.svg), 
+    url(svgs/corners_right.svg);
+    background-repeat: 
+    no-repeat,
+    no-repeat;
+    background-size: 
+    auto 101%,
+    auto 101%;
+    background-position: 
+    left,
+    right;
+    grid-area: city_silhouette;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 10% 25% 10% 50% 5%;
+    grid-template-areas: 
+    ". div3_title ."
+    ". about_me ."
+    ". connect_icons ."
+    ". message_form ."
+    ". . .";
+}
+
+#div3_title {
+    margin: 0;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    font-size: 1.4em;
+    text-decoration: underline;
+    grid-area: div3_title;
+}
+
+#about_me_desktop {
+    display: none;
+}
+
+#about_me {
+    margin: 0;
+    font-size: 1.1em;
+    line-height: 19px;
+    grid-area: about_me;
+}
+
+#connect_icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    grid-area: connect_icons;
+}
+
+#connect_icons img {
+    width: 50px;
+}
+
+#message_form {
+    margin: 0;
+    grid-area: message_form;
+    display: grid;
+    grid-template-rows: 15% 15% 55% 15%;
+    grid-template-areas: 
+    "name_box"
+    "email_box"
+    "message_box"
+    "send_message_button";
+}
+
+.input_box input {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #F1E4C1;
+    font-size: 1.1em;
+}
+
+#send_message_button input {
+    border-bottom: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.1em;
+}
+
+.input_box label {
+    position: absolute;
+    top: 15px;
+    font-size: 1.2em;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input_box input:focus ~ label,
+.input_box input:valid ~ label {
+    top: 3px;
+    font-size: 0.5em;
+    color: grey;
+}
+
+#name_box {
+    position: relative;
+    grid-area: name_box;
+}
+
+#email_box {
+    position: relative;
+    grid-area: email_box;
+}
+
+#message_box {
+    position: relative;
+    grid-area: message_box;
+}
+
+#send_message_button {
+    grid-area: send_message_button;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #navigation {
+        position: fixed;
+        width: 590px;
+        left: 50%;
+        margin-left: -295px;
+        display: flex;
+        justify-content: space-around;
+        height: 0;
+        font-size: 1.4em;
+        font-family: 'Poiret One', cursive;
+
+    }
+
+    #navigation a {
+        position: relative;
+        height: 30px;
+        top: 30px;
+    }
+
+    #maxi_merrillees {
+        background-image: url(svgs/spotlights_four.svg); 
+        background-repeat:no-repeat;
+        background-position: 60% 50%;
+        background-size: cover;
+        grid-template-columns: 1fr 290px 290px 1fr;
+        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-areas:
+        ". . . ."
+        ". maxi bio ."
+        ". merrillees merrillees ."
+        "city_silhouette city_silhouette city_silhouette city_silhouette";
+    }
+
+    #navigation a:hover {
+        text-shadow: 0px 0px 8px #F1E4C1;
+    }
+
+    #maxi {
+        font-size: 8em;
+        text-shadow: 0px 10px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    #merrillees {
+        font-size: 8em;
+        text-shadow: 0px 7px 0px rgba(0, 0, 0, 0.25);
+    }
+
+    #bio {
+        padding: 10px;
+    }
+
+    #city_silhouette {
+        background-size: 110%;
+        grid-area: city_silhouette;
+    }
+
+    #noteable_work {
+        background-image: url(svgs/work_spotlight.svg), url(svgs/work_spotlight.svg), url(svgs/work_spotlight.svg), url(svgs/work_spotlight.svg);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+        background-size: auto 100%, auto 100%, auto 100%, auto 100%;
+        background-position: 9% top, 37% top, 63% top, 91% top;
+        grid-template-columns: 4% 23% 23% 23% 23% 4%;
+        grid-template-rows: 15% 60% 25%;
+        grid-template-areas:
+        ". . . . . ."
+        ". work1_desktop work2_desktop work3_desktop work4_desktop ."
+        ". skills_icons1 skills_icons1 skills_icons2 skills_icons2 .";
+    }
+
+    #div2_title {
+        display: none;
+    }
+
+    .work_description {
+        font-size: 1em;
+        line-height: 25px;
+        padding: 20px;
+    }
+
+    #work1_mobile {
+        display: none;
+    }
+
+    #work1_desktop {
+        display: inline;
+        margin: 0;
+        grid-area: work1_desktop;
+        padding-top: 0px;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
+
+    #work1_desktop:hover {
+        text-shadow: 0px 0px 8px #F1E4C1;
+    }
+
+    #work1_desktop:hover ~ div .work_one {
+        filter: grayscale(0%);
+        width: 11%;
+    }
+
+    #work2_mobile {
+        display: none;
+    }
+
+    #work2_desktop {
+        display: inline;
+        margin: 0;
+        grid-area: work2_desktop;
+        padding-top: 0px;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
+
+    #work2_desktop:hover {
+        text-shadow: 0px 0px 8px #F1E4C1;
+    }
+
+    #work2_desktop:hover ~ div .work_two {
+        filter: grayscale(0%);
+        width: 11%;
+    }
+
+    #work3_mobile {
+        display: none;
+    }
+
+    #work3_desktop {
+        display: inline;
+        margin: 0;
+        grid-area: work3_desktop;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
+
+    #work3_desktop:hover {
+        text-shadow: 0px 0px 8px #F1E4C1;
+    }
+
+    #work3_desktop:hover ~ div #work_three_one {
+        filter: grayscale(0%);
+        width: 11%;
+    }
+
+    #work3_desktop:hover ~ div #work_three_two {
+        filter: grayscale(0%);
+        width: 22%;
+    }
+
+    #work4_mobile {
+        display: none;
+    }
+
+    #work4_desktop {
+        display: inline;
+        margin: 0;
+        grid-area: work4_desktop;
+        padding-top: 0px;
+        padding-right: 20px;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
+
+    #work4_desktop:hover {
+        text-shadow: 0px 0px 8px #F1E4C1;
+    }
+
+    #work4_desktop:hover ~ div .work_one {
+        filter: grayscale(0%);
+        width: 11%;
+    }
+
+    #work4_desktop:hover ~ div #work_four_one {
+        filter: grayscale(0%);
+        width: 22%;
+    }
+
+    #work4_desktop:hover ~ div .work_two {
+        filter: grayscale(0%);
+        width: 11%;
+    }
+
+    #work4_desktop:hover ~ div .work_four_two {
+        filter: grayscale(0%);
+        width: 11%;
+    }
+
+    #skills_icons1 img {
+        width: 10%;
+        height: auto;
+        filter: grayscale(80%);
+        align-content: center;
+    }
+
+    #skills_icons1 img:nth-child(4) {
+        width: 20%;
+        height: auto;
+    }
+
+    #skills_icons2 img {
+        width: 10%;
+        height: auto;
+        filter: grayscale(80%);
+        align-content: center;
+    }
+
+    #skills_icons2 img:nth-child(4) {
+        width: 20%;
+        height: auto;
+    }
+
+    #connect_with_me {
+        grid-template-columns: 1fr 580px 1fr;
+        grid-template-rows: 15% 25% 15% 40% 5%;
+    }
+
+    #div3_title {
+        display: none;
+    }
+
+    #about_me_desktop {
+        display: none;
+    }
+
+    #about_me {
+        line-height: 25px;
+        padding: 10px;
+    }
+
+    #connect_icons img {
+        width: 60px;
+    }
+
+    #message_form {
+        grid-template-rows: 15% 15% 55% 15%;
+    }
+}

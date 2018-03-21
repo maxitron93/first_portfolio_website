@@ -1,0 +1,50 @@
+<svg width="62" height="88" viewBox="0 0 62 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Technology-Logo-JS</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-8182 -2715)">
+<g id="Technology-Logo-JS">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(8182 2732.31)" fill="#EFC725"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(8212.95 2737.43)" fill="#FBDE34"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(8195.91 2772.74)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(8195.94 2740.45)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(8213.93 2740.44)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path5_fill" transform="translate(8213.1 2740.45)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path6_fill" transform="translate(8212.91 2761.04)" fill="#FFFFFF"/>
+</g>
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path7_fill" transform="translate(8213.11 2715)" fill="#151515"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path8_fill" transform="translate(8201.66 2715.01)" fill="#020202"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 5.64243 63.6237L -7.95129e-08 7.92971e-07L 62 7.92971e-07L 56.3517 63.6134L 30.9621 70.6899L 5.64243 63.6237Z"/>
+<path id="path1_fill" d="M 0 60.0785L 20.5162 54.3605L 25.3432 3.83695e-08L 0 3.83695e-08L 0 60.0785Z"/>
+<path id="path2_fill" d="M 17.0223 8.56028L 16.9886 8.57013L 8.3442 6.22297L 7.79122 2.55797e-06L 3.59118 2.55797e-06L 8.90545e-08 2.55797e-06L 1.08742 12.2519L 16.9865 16.6893L 17.0223 16.679L 17.0223 8.56028Z"/>
+<path id="path3_fill" d="M 18.042 28.3903L 18.042 20.5873L 8.48428 20.5873L 9.60505 8.34088L 18.0635 8.11436L 18.042 -1.09993e-06L 2.58755 -1.09993e-06L 2.01351 5.75191L 0.189262 26.295L 2.03553e-07 28.3903L 2.09168 28.3903L 18.042 28.3903Z"/>
+<path id="path4_fill" d="M 1.52665e-07 8.12882L 0.0339744 8.11918L 8.51137 8.63237L 9.23069 16.6889L 13.4309 16.6889L 17.0223 16.6889L 15.6646 1.61269L 0.0358509 -7.41811e-07L 1.52665e-07 0.0100585L 1.52665e-07 8.12882Z"/>
+<path id="path5_fill" d="M 17.049 8.14915L 16.3839 -1.09993e-06L 1.14499e-06 -1.09993e-06L 1.14499e-06 5.06103L 1.14499e-06 8.12882L 1.14499e-06 8.14915L 17.049 8.14915Z"/>
+<path id="path6_fill" d="M -9.66877e-07 4.86014e-07L -9.66877e-07 7.80276L 9.55773 7.80276L 8.65686 17.9225L -9.66877e-07 20.272L -9.66877e-07 28.3903L 15.9122 23.9567L 16.0287 22.6384L 17.853 2.09528L 18.0422 4.86014e-07L 15.9505 4.86014e-07L -9.66877e-07 4.86014e-07Z"/>
+<path id="path7_fill" d="M 10.8171 3.25765L 5.67098 3.25765L 11.0228 9.09568L 11.0228 11.8743L -8.39657e-07 11.8743L -8.39657e-07 8.62084L 5.35061 8.62084L -8.39657e-07 2.78302L -8.39657e-07 -7.99366e-08L 10.8171 -7.99366e-08L 10.8171 3.25765Z"/>
+<path id="path8_fill" d="M 9.49291 3.99683e-08L 9.49291 11.864L -5.34327e-07 11.864L -5.34327e-07 7.94253L 5.54717 7.94253L 5.54717 3.99683e-08L 9.49249 3.99683e-08L 9.49291 3.99683e-08Z"/>
+</defs>
+</svg>

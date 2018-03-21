@@ -1,0 +1,49 @@
+<svg width="62" height="88" viewBox="0 0 62 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Technology-Logo-CSS</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7875 -2715)">
+<g id="Technology-Logo-CSS">
+<g id="layer1">
+<g id="g3013">
+<g id="polygon2989">
+<use xlink:href="#path0_fill" transform="translate(7875 2732.29)" fill="#264DE4"/>
+</g>
+<g id="polygon2991">
+<use xlink:href="#path1_fill" transform="translate(7906 2737.5)" fill="#2965F1"/>
+</g>
+<g id="polygon2993">
+<use xlink:href="#path2_fill" transform="translate(7887.94 2761.1)" fill="#EBEBEB"/>
+</g>
+<g id="polygon2995">
+<use xlink:href="#path3_fill" transform="translate(7886.54 2745.3)" fill="#EBEBEB"/>
+</g>
+<g id="polygon2997">
+<use xlink:href="#path4_fill" transform="translate(7888.98 2772.81)" fill="#EBEBEB"/>
+</g>
+<g id="path2999">
+<use xlink:href="#path5_fill" transform="translate(7889.59 2715)"/>
+</g>
+<g id="path3001">
+<use xlink:href="#path6_fill" transform="translate(7900.87 2715)"/>
+</g>
+<g id="path3003">
+<use xlink:href="#path6_fill" transform="translate(7912.15 2715)"/>
+</g>
+<g id="polygon3005">
+<use xlink:href="#path7_fill" transform="translate(7905.97 2745.3)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 62 4.72068e-07L 56.3516 63.6279L 30.9621 70.7059L 5.64238 63.6379L 5.52916e-07 4.72068e-07L 62 4.72068e-07Z"/>
+<path id="path1_fill" d="M 20.516 54.373L 25.3429 -4.82559e-07L 0 -4.82559e-07L 0 60.0924L 20.516 54.373Z"/>
+<path id="path2_fill" d="M -4.17295e-07 1.80435e-06L 0.695662 7.80484L 18.065 7.80484L 18.065 1.80435e-06L -4.17295e-07 1.80435e-06Z"/>
+<path id="path3_fill" d="M 19.4628 -1.25885e-06L 19.436 -1.25885e-06L 6.46808e-07 -1.25885e-06L 0.705574 7.80501L 19.4628 7.80501L 19.4628 -1.25885e-06Z"/>
+<path id="path4_fill" d="M 17.0225 16.6832L 17.0225 8.56281L 16.9885 8.57191L 8.34418 6.22479L 7.79158 1.34277e-06L 3.59112 1.34277e-06L -5.84213e-07 1.34277e-06L 1.08742 12.2548L 16.9868 16.6932L 17.0225 16.6832Z"/>
+<path id="path5_fill" d="M 0 0L 9.40083 0L 9.40083 3.95312L 3.93126 3.95312L 3.93126 7.90624L 9.40083 7.90624L 9.40083 11.8594L 0 11.8594L 0 0Z"/>
+<path id="path6_fill" d="M 0 0L 9.40083 0L 9.40083 3.4375L 3.93126 3.4375L 3.93126 4.125L 9.40083 4.125L 9.40083 12.0312L 0 12.0312L 0 8.42187L 5.46957 8.42187L 5.46957 7.73437L 0 7.73437L 0 0Z"/>
+<path id="path7_fill" d="M 9.55773 23.6022L 8.65679 33.7246L 3.9643e-07 36.0741L 3.9643e-07 44.1942L 15.912 39.7596L 16.0288 38.441L 17.8527 17.8932L 18.0421 15.7974L 19.4433 -1.25885e-06L 3.9643e-07 -1.25885e-06L 3.9643e-07 7.80501L 10.9371 7.80501L 10.2308 15.7974L 3.9643e-07 15.7974L 3.9643e-07 23.6022L 9.55773 23.6022Z"/>
+</defs>
+</svg>

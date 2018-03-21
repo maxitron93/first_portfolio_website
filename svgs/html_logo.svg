@@ -1,0 +1,30 @@
+<svg width="62" height="88" viewBox="0 0 62 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Technology-Logo-HTML</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-8031 -2715)">
+<g id="Technology-Logo-HTML">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(8036.78 2715)"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(8031 2732.29)" fill="#E44D26"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path2_fill" transform="translate(8062 2737.52)" fill="#F16529"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path3_fill" transform="translate(8042.52 2745.3)" fill="#EBEBEB"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path4_fill" transform="translate(8061.97 2745.3)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 2.60762e-07 0L 3.93054 0L 3.93054 3.91875L 7.55347 3.91875L 7.55347 0L 11.484 0L 11.484 11.8594L 7.55347 11.8594L 7.55347 7.90625L 3.96472 7.90625L 3.96472 11.8594L 2.60762e-07 11.8594L 2.60762e-07 0ZM 16.6792 3.95312L 13.21 3.95312L 13.21 0L 24.0959 0L 24.0959 3.95312L 20.6097 3.95312L 20.6097 11.8594L 16.6792 11.8594L 16.6792 3.95312ZM 25.8219 0L 29.9405 0L 32.4697 4.17656L 34.9989 0L 39.1174 0L 39.1174 11.8594L 35.1869 11.8594L 35.1869 5.98125L 32.4355 10.2437L 29.6841 5.98125L 29.6841 11.8594L 25.8219 11.8594L 25.8219 0ZM 41.0656 0L 44.9961 0L 44.9961 7.94063L 50.5673 7.94063L 50.5673 11.8594L 41.0656 11.8594"/>
+<path id="path1_fill" d="M 5.63947 63.6625L -2.60762e-07 -2.6226e-07L 62 -2.6226e-07L 56.3605 63.6281L 30.9487 70.7094"/>
+<path id="path2_fill" d="M 0 60.0703L 0 0L 25.3434 0L 20.5072 54.3125"/>
+<path id="path3_fill" d="M 0 5.24521e-07L 19.4818 5.24521e-07L 19.4818 7.80312L 8.51048 7.80312L 9.22823 15.7953L 19.4818 15.7953L 19.4818 23.5812L 2.11907 23.5812L 0 5.24521e-07ZM 2.46086 27.5L 10.2536 27.5L 10.8004 33.7391L 19.4818 36.0766L 19.4818 44.2234L 3.55458 39.7547"/>
+<path id="path4_fill" d="M 19.4476 5.24521e-07L 5.21524e-07 5.24521e-07L 5.21524e-07 7.80313L 18.7299 7.80313L 19.4476 5.24521e-07ZM 18.0292 15.7953L 5.21524e-07 15.7953L 5.21524e-07 23.5984L 9.57001 23.5984L 8.66428 33.7391L 5.21524e-07 36.0766L 5.21524e-07 44.1891L 15.8931 39.7547"/>
+</defs>
+</svg>
