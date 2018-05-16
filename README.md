@@ -1,7 +1,8 @@
-# README
+# Context
+This was my first attempt at creating my portfolio website. I have since created a new portfolio website at [maximerrillees.com](http://www.maximerrillees.com/).
 
-## Link to website
-[Maxi Merrillees profile website](https://maxi-merrillees.netlify.com/)
+
+# [Maxi Merrillees profile website](https://maxi-merrillees.netlify.com/)
 
 ## What's it all about?
 This is the first website that I designed and developed from scratch. My goal was to create a clean and consistent design and learn a lot along the way. Specifically, I wanted to learn how to position elements on a page with grid, create and deploy SVGs, and use animations and effects to create visual appeal.
